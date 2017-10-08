@@ -46,7 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
      <Compile Include="Assets\CameraMovement.cs" />
+=======
+>>>>>>> Stashed changes
      <Compile Include="Assets\Examples\BallMaker.cs" />
      <Compile Include="Assets\Examples\BallMover.cs" />
      <Compile Include="Assets\Examples\Ballz.cs" />
