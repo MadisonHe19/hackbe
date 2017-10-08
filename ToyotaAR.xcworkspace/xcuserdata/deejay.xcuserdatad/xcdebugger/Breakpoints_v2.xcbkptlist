@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToyotaAdvancedRetail/Car.swift"
+            timestampString = "529121569.549581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToyotaAdvancedRetail/Car.swift"
+            timestampString = "529121569.549656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Car"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToyotaAdvancedRetail.Car.carPrice.getter : Swift.Int"
+                  moduleName = "ToyotaAdvancedRetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deejay/hackbe/ToyotaAdvancedRetail/Car.swift"
+                  timestampString = "529121569.795372"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToyotaAdvancedRetail.Car.carPrice.setter : Swift.Int"
+                  moduleName = "ToyotaAdvancedRetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deejay/hackbe/ToyotaAdvancedRetail/Car.swift"
+                  timestampString = "529121569.800271"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToyotaAdvancedRetail.Car.init(price: Swift.Int, MPG: Swift.Int, transmissionType: Swift.String, bodyType: Swift.String, fuel: Swift.String) -&gt; ToyotaAdvancedRetail.Car"
+                  moduleName = "ToyotaAdvancedRetail"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deejay/hackbe/ToyotaAdvancedRetail/Car.swift"
+                  timestampString = "529121569.813163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToyotaAdvancedRetail/Car.swift"
+            timestampString = "529121569.549755"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
