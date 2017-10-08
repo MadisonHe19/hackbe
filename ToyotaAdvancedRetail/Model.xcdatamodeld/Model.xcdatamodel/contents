@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13528" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="NewCar">
-    <entity name="NewCar" representedClassName="NewCar" syncable="YES">
-        <attribute name="bodyType" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="engineType" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="fuelType" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="mpg" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="price" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-    </entity>
-    <elements>
-        <element name="NewCar" positionX="-63" positionY="-18" width="128" height="120"/>
-    </elements>
+    <elements/>
 </model>

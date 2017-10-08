@@ -43,21 +43,4 @@ class Car: NSObject {
     func displayCarFuel (carFuel: String) -> String {
         return carFuel
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

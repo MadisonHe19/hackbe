@@ -34,6 +34,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    @IBAction func Customize(_ sender: UIButton) {
+    }
+ 
+    
     /*
     // AR Kit
     @IBOutlet weak var sceneView: ARSCNView!
@@ -42,7 +47,8 @@ class ViewController: UIViewController {
     self.sceneView.session.run(configuration)
     // Do any additional setup after loading the view, typically from a nib.
  
- */
+ 
+    
     var faveCars = [String] ()
     
     func criteria(carPrice: Int, carMPG: Int, carEngine: String, carBodyType: String, carFuel: String) {
@@ -57,11 +63,6 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func customize(_ sender: UIButton) {
-        print("We will start customizing")
-    }
- 
-
     // Customizing Body Type
     @IBAction func pressSedan(sender: UIButton) -> Void {
         customBodyType = "sedan"
@@ -70,25 +71,25 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func pressTruck(sender: UIButton) {
+    @IBAction func pressTruck(sender: UIButton) -> Void {
         customBodyType = "truck"
          return (customBodyType = "truck")
     }
     
     
-    @IBAction func pressHatchBack(sender: UIButton) {
+    @IBAction func pressHatchBack(sender: UIButton) -> Void {
         customBodyType = "Hatchback"
          return (customBodyType = "Hatchback")
     }
     
     
-    @IBAction func pressSUV(sender: UIButton) {
+    @IBAction func pressSUV(sender: UIButton)  -> Void{
         customBodyType = "SUV"
          return (customBodyType = "SUV")
     }
     
     
-
+ */
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
