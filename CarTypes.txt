@@ -1,0 +1,63 @@
+var camry_XSE = Car(
+    price: 34950,
+    MPG:26,
+    transmissionType: "automatic",
+    bodyType: "sedan",
+    fuel: "gas"
+)
+
+var tacoma_SR = Car(
+    price: 30190,
+    MPG: 19,
+    transmissionType:"automatic",
+    bodyType: "truck",
+    fuel: "gas"
+)
+
+var tacoma_TRD = Car(
+    price: 33530,
+    MPG: 17,
+    transmissionType: "5-speed",
+    bodyType: "truck",
+    fuel: "gas"
+)
+
+var tundra_SR5 = Car(
+    price: 31120,
+    MPG:15,
+    transmissionType: "automatic",
+    bodyType: "truck",
+    fuel: "gas"
+)
+
+var tundra_Limited = Car(
+    price: 40385,
+    MPG: 13,
+    transmissionType: "automatic",
+    bodyType: "truck",
+    fuel: "gas"
+)
+
+var RAV4_XLE_H = Car(
+    price: 29030,
+    MPG: 34,
+    transmissionType: "CVT",
+    bodyType: "SUV",
+    fuel: "hybrid"
+)
+
+var Prius_Prime_+ = Car(
+    price: 27,100,
+    MPG: 54,
+    transmissionType: "automatic",
+    bodyType: "hatchback",
+    fuel: "hybrid"
+)
+
+var Mirai = Car(
+    price: 57500,
+    MPG: nil,
+    transmissionType: "automatic",
+    bodyType: "sedan",
+    fuel: "fuel_cell"
+)
