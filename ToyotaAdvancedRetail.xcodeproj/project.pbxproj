@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6CDF0B1F89DF200060C854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CDF071F89DF200060C854 /* ViewController.swift */; };
+		7A6CDF0C1F89DF200060C854 /* CamryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CDF081F89DF200060C854 /* CamryViewController.swift */; };
+		7A6CDF0D1F89DF200060C854 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CDF091F89DF200060C854 /* CustomizeViewController.swift */; };
+		7A6CDF0E1F89DF200060C854 /* Customize2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6CDF0A1F89DF200060C854 /* Customize2ViewController.swift */; };
 		7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EA91F8939400028D872 /* AppDelegate.swift */; };
-		7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EAB1F8939400028D872 /* ViewController.swift */; };
-		7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EAD1F8939400028D872 /* Main.storyboard */; };
+		7AA18EAC1F8939400028D872 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EAB1F8939400028D872 /* EntryViewController.swift */; };
 		7AA18EB21F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EB01F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld */; };
-		7AA18EB41F8939400028D872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EB31F8939400028D872 /* Assets.xcassets */; };
 		7AA18EB71F8939400028D872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */; };
+		7AA18EBF1F898A3A0028D872 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EBE1F898A3A0028D872 /* RoundButton.swift */; };
+		7AA18EC11F89A9970028D872 /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EC01F89A9970028D872 /* LicenseViewController.swift */; };
+		7AA18EC41F89C97B0028D872 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18EC31F89C97B0028D872 /* AVFoundation.framework */; };
+		7AA18ECB1F89CA4B0028D872 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ECA1F89CA4B0028D872 /* libc++.tbd */; };
+		7AA18ECD1F89CA590028D872 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ECC1F89CA580028D872 /* libz.tbd */; };
+		7AA18ECF1F89CA680028D872 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ECE1F89CA680028D872 /* libiconv.tbd */; };
+		7AA18ED11F89CA760028D872 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ED01F89CA760028D872 /* Accelerate.framework */; };
+		7AA18ED31F89CA810028D872 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ED21F89CA810028D872 /* AudioToolbox.framework */; };
+		7AA18ED51F89CA8F0028D872 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ED41F89CA8F0028D872 /* CoreMedia.framework */; };
+		7AA18ED81F89D3520028D872 /* MicroBlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ED71F89D33F0028D872 /* MicroBlink.framework */; };
+		7AA18ED91F89D3520028D872 /* MicroBlink.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18ED71F89D33F0028D872 /* MicroBlink.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AA18EDB1F89DDDB0028D872 /* MicroBlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA18EDA1F89DDDB0028D872 /* MicroBlink.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7AA18EC91F89C9D10028D872 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7AA18ED91F89D3520028D872 /* MicroBlink.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7A6CDF071F89DF200060C854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A6CDF081F89DF200060C854 /* CamryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamryViewController.swift; sourceTree = "<group>"; };
+		7A6CDF091F89DF200060C854 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		7A6CDF0A1F89DF200060C854 /* Customize2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customize2ViewController.swift; sourceTree = "<group>"; };
+		7A6CDF0F1F89DF400060C854 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7A6CDF101F89DFA40060C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Toyota AR/ToyotaAdvancedRetail/Assets.xcassets"; sourceTree = "<group>"; };
 		7AA18EA61F8939400028D872 /* ToyotaAdvancedRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyotaAdvancedRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA18EA91F8939400028D872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AA18EAB1F8939400028D872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AA18EAE1F8939400028D872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA18EAB1F8939400028D872 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		7AA18EB11F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToyotaAdvancedRetail.xcdatamodel; sourceTree = "<group>"; };
-		7AA18EB31F8939400028D872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA18EB61F8939400028D872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA18EB81F8939400028D872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA18EBE1F898A3A0028D872 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		7AA18EC01F89A9970028D872 /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		7AA18EC31F89C97B0028D872 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7AA18ECA1F89CA4B0028D872 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7AA18ECC1F89CA580028D872 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7AA18ECE1F89CA680028D872 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		7AA18ED01F89CA760028D872 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7AA18ED21F89CA810028D872 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7AA18ED41F89CA8F0028D872 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7AA18ED61F89D33F0028D872 /* MicroBlink.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MicroBlink.bundle; path = "../blinkid-ios/MicroBlink.bundle"; sourceTree = "<group>"; };
+		7AA18ED71F89D33F0028D872 /* MicroBlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicroBlink.framework; path = "../blinkid-ios/MicroBlink.framework"; sourceTree = "<group>"; };
+		7AA18EDA1F89DDDB0028D872 /* MicroBlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicroBlink.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA18ED51F89CA8F0028D872 /* CoreMedia.framework in Frameworks */,
+				7AA18ED31F89CA810028D872 /* AudioToolbox.framework in Frameworks */,
+				7AA18ED81F89D3520028D872 /* MicroBlink.framework in Frameworks */,
+				7AA18EDB1F89DDDB0028D872 /* MicroBlink.framework in Frameworks */,
+				7AA18ED11F89CA760028D872 /* Accelerate.framework in Frameworks */,
+				7AA18ECF1F89CA680028D872 /* libiconv.tbd in Frameworks */,
+				7AA18ECD1F89CA590028D872 /* libz.tbd in Frameworks */,
+				7AA18ECB1F89CA4B0028D872 /* libc++.tbd in Frameworks */,
+				7AA18EC41F89C97B0028D872 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +93,10 @@
 		7AA18E9D1F8939400028D872 = {
 			isa = PBXGroup;
 			children = (
+				7AA18EDA1F89DDDB0028D872 /* MicroBlink.framework */,
 				7AA18EA81F8939400028D872 /* ToyotaAdvancedRetail */,
 				7AA18EA71F8939400028D872 /* Products */,
+				7AA18EC21F89C97B0028D872 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +112,36 @@
 			isa = PBXGroup;
 			children = (
 				7AA18EA91F8939400028D872 /* AppDelegate.swift */,
-				7AA18EAB1F8939400028D872 /* ViewController.swift */,
-				7AA18EAD1F8939400028D872 /* Main.storyboard */,
-				7AA18EB31F8939400028D872 /* Assets.xcassets */,
+				7AA18EAB1F8939400028D872 /* EntryViewController.swift */,
+				7AA18EC01F89A9970028D872 /* LicenseViewController.swift */,
+				7A6CDF081F89DF200060C854 /* CamryViewController.swift */,
+				7A6CDF0A1F89DF200060C854 /* Customize2ViewController.swift */,
+				7A6CDF071F89DF200060C854 /* ViewController.swift */,
+				7A6CDF091F89DF200060C854 /* CustomizeViewController.swift */,
+				7A6CDF101F89DFA40060C854 /* Assets.xcassets */,
+				7A6CDF0F1F89DF400060C854 /* Main.storyboard */,
 				7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */,
+				7AA18EBE1F898A3A0028D872 /* RoundButton.swift */,
 				7AA18EB81F8939400028D872 /* Info.plist */,
 				7AA18EB01F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld */,
 			);
 			path = ToyotaAdvancedRetail;
+			sourceTree = "<group>";
+		};
+		7AA18EC21F89C97B0028D872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AA18ED61F89D33F0028D872 /* MicroBlink.bundle */,
+				7AA18ED71F89D33F0028D872 /* MicroBlink.framework */,
+				7AA18ED41F89CA8F0028D872 /* CoreMedia.framework */,
+				7AA18ED21F89CA810028D872 /* AudioToolbox.framework */,
+				7AA18ED01F89CA760028D872 /* Accelerate.framework */,
+				7AA18ECE1F89CA680028D872 /* libiconv.tbd */,
+				7AA18ECC1F89CA580028D872 /* libz.tbd */,
+				7AA18ECA1F89CA4B0028D872 /* libc++.tbd */,
+				7AA18EC31F89C97B0028D872 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +154,7 @@
 				7AA18EA21F8939400028D872 /* Sources */,
 				7AA18EA31F8939400028D872 /* Frameworks */,
 				7AA18EA41F8939400028D872 /* Resources */,
+				7AA18EC91F89C9D10028D872 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,8 +205,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA18EB71F8939400028D872 /* LaunchScreen.storyboard in Resources */,
-				7AA18EB41F8939400028D872 /* Assets.xcassets in Resources */,
-				7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */,
+				7A6CDF0B1F89DF200060C854 /* ViewController.swift in Sources */,
+				7AA18EBF1F898A3A0028D872 /* RoundButton.swift in Sources */,
+				7A6CDF0D1F89DF200060C854 /* CustomizeViewController.swift in Sources */,
+				7A6CDF0E1F89DF200060C854 /* Customize2ViewController.swift in Sources */,
+				7AA18EC11F89A9970028D872 /* LicenseViewController.swift in Sources */,
+				7AA18EAC1F8939400028D872 /* EntryViewController.swift in Sources */,
 				7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */,
+				7A6CDF0C1F89DF200060C854 /* CamryViewController.swift in Sources */,
 				7AA18EB21F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,14 +230,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7AA18EAD1F8939400028D872 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AA18EAE1F8939400028D872 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -277,11 +351,18 @@
 		7AA18EBC1F8939400028D872 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBY6DDYB9X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToyotaAdvancedRetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,11 +372,18 @@
 		7AA18EBD1F8939400028D872 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBY6DDYB9X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ToyotaAdvancedRetail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
