@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27CFA6D31F8A05430072DDD9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CFA6D21F8A05430072DDD9 /* Car.swift */; };
+		27CFA6D51F8A16360072DDD9 /* Toyota AR in Resources */ = {isa = PBXBuildFile; fileRef = 27CFA6D41F8A16360072DDD9 /* Toyota AR */; };
 		7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EA91F8939400028D872 /* AppDelegate.swift */; };
 		7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EAB1F8939400028D872 /* ViewController.swift */; };
 		7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EAD1F8939400028D872 /* Main.storyboard */; };
@@ -16,8 +17,30 @@
 		7AA18EB71F8939400028D872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		27CFA6E91F8A18690072DDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CFA6E51F8A18690072DDD9 /* ToyotaAdvancedRetail.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7AA18EA61F8939400028D872;
+			remoteInfo = ToyotaAdvancedRetail;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		27CFA6D21F8A05430072DDD9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		27CFA6D41F8A16360072DDD9 /* Toyota AR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Toyota AR"; path = "../../Downloads/Toyota AR"; sourceTree = "<group>"; };
+		27CFA6D81F8A18690072DDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27CFA6D91F8A18690072DDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27CFA6DB1F8A18690072DDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27CFA6DD1F8A18690072DDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27CFA6DE1F8A18690072DDD9 /* CamryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamryViewController.swift; sourceTree = "<group>"; };
+		27CFA6DF1F8A18690072DDD9 /* Customize2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customize2ViewController.swift; sourceTree = "<group>"; };
+		27CFA6E01F8A18690072DDD9 /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		27CFA6E11F8A18690072DDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CFA6E31F8A18690072DDD9 /* ToyotaAdvancedRetail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToyotaAdvancedRetail.xcdatamodel; sourceTree = "<group>"; };
+		27CFA6E41F8A18690072DDD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27CFA6E51F8A18690072DDD9 /* ToyotaAdvancedRetail.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ToyotaAdvancedRetail.xcodeproj; sourceTree = "<group>"; };
 		7AA18EA61F8939400028D872 /* ToyotaAdvancedRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyotaAdvancedRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA18EA91F8939400028D872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA18EAB1F8939400028D872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,10 +62,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27CFA6D61F8A18690072DDD9 /* Toyota AR */ = {
+			isa = PBXGroup;
+			children = (
+				27CFA6D71F8A18690072DDD9 /* ToyotaAdvancedRetail */,
+				27CFA6E51F8A18690072DDD9 /* ToyotaAdvancedRetail.xcodeproj */,
+			);
+			name = "Toyota AR";
+			path = "../Downloads/Toyota AR";
+			sourceTree = "<group>";
+		};
+		27CFA6D71F8A18690072DDD9 /* ToyotaAdvancedRetail */ = {
+			isa = PBXGroup;
+			children = (
+				27CFA6D81F8A18690072DDD9 /* AppDelegate.swift */,
+				27CFA6D91F8A18690072DDD9 /* Assets.xcassets */,
+				27CFA6DA1F8A18690072DDD9 /* LaunchScreen.storyboard */,
+				27CFA6DC1F8A18690072DDD9 /* Main.storyboard */,
+				27CFA6DE1F8A18690072DDD9 /* CamryViewController.swift */,
+				27CFA6DF1F8A18690072DDD9 /* Customize2ViewController.swift */,
+				27CFA6E01F8A18690072DDD9 /* CustomizeViewController.swift */,
+				27CFA6E11F8A18690072DDD9 /* Info.plist */,
+				27CFA6E21F8A18690072DDD9 /* ToyotaAdvancedRetail.xcdatamodeld */,
+				27CFA6E41F8A18690072DDD9 /* ViewController.swift */,
+			);
+			path = ToyotaAdvancedRetail;
+			sourceTree = "<group>";
+		};
+		27CFA6E61F8A18690072DDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CFA6EA1F8A18690072DDD9 /* ToyotaAdvancedRetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7AA18E9D1F8939400028D872 = {
 			isa = PBXGroup;
 			children = (
 				7AA18EA81F8939400028D872 /* ToyotaAdvancedRetail */,
+				27CFA6D61F8A18690072DDD9 /* Toyota AR */,
 				7AA18EA71F8939400028D872 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +119,7 @@
 			children = (
 				7AA18EA91F8939400028D872 /* AppDelegate.swift */,
 				7AA18EAB1F8939400028D872 /* ViewController.swift */,
+				27CFA6D41F8A16360072DDD9 /* Toyota AR */,
 				27CFA6D21F8A05430072DDD9 /* Car.swift */,
 				7AA18EAD1F8939400028D872 /* Main.storyboard */,
 				7AA18EB31F8939400028D872 /* Assets.xcassets */,
@@ -117,6 +177,12 @@
 			mainGroup = 7AA18E9D1F8939400028D872;
 			productRefGroup = 7AA18EA71F8939400028D872 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 27CFA6E61F8A18690072DDD9 /* Products */;
+					ProjectRef = 27CFA6E51F8A18690072DDD9 /* ToyotaAdvancedRetail.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7AA18EA51F8939400028D872 /* ToyotaAdvancedRetail */,
@@ -124,11 +190,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		27CFA6EA1F8A18690072DDD9 /* ToyotaAdvancedRetail.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ToyotaAdvancedRetail.app;
+			remoteRef = 27CFA6E91F8A18690072DDD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7AA18EA41F8939400028D872 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CFA6D51F8A16360072DDD9 /* Toyota AR in Resources */,
 				7AA18EB71F8939400028D872 /* LaunchScreen.storyboard in Resources */,
 				7AA18EB41F8939400028D872 /* Assets.xcassets in Resources */,
 				7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */,
@@ -152,6 +229,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		27CFA6DA1F8A18690072DDD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CFA6DB1F8A18690072DDD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		27CFA6DC1F8A18690072DDD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CFA6DD1F8A18690072DDD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		7AA18EAD1F8939400028D872 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -330,6 +423,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		27CFA6E21F8A18690072DDD9 /* ToyotaAdvancedRetail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27CFA6E31F8A18690072DDD9 /* ToyotaAdvancedRetail.xcdatamodel */,
+			);
+			currentVersion = 27CFA6E31F8A18690072DDD9 /* ToyotaAdvancedRetail.xcdatamodel */;
+			path = ToyotaAdvancedRetail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		7AA18EB01F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

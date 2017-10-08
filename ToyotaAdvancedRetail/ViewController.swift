@@ -22,6 +22,10 @@ class ViewController: UIViewController {
     var runner4Lim = Car(carPrice: 39495, carMPG: 20, carEngine: "automatic", carBodyType: "SUV", carFuel: "gas")
 
     
+    @IBAction func customize(_ sender: UIButton) {
+        
+    
+    }
     @IBOutlet weak var sceneView: ARSCNView!
     let configuration = AROrientationTrackingConfiguration()
     override func viewDidLoad() {
