@@ -10,6 +10,11 @@ import UIKit
 
 class Customize2ViewController: UIViewController {
 
+    @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var label: UITextField!
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        self.label.text = String(self.slider.value)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
