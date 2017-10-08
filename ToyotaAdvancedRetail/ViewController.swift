@@ -7,6 +7,7 @@
 //
 import ARKit
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
     var camry_XSEv6 = Car(carPrice: 34950, carMPG: 26, carEngine: "automatic",carBodyType: "sedan", carFuel: "gas")
@@ -22,10 +23,39 @@ class ViewController: UIViewController {
     var runner4Lim = Car(carPrice: 39495, carMPG: 20, carEngine: "automatic", carBodyType: "SUV", carFuel: "gas")
 
     
-    @IBAction func customize(_ sender: UIButton) {
-        
     
+    var customBodyType: String = " "
+    var customMPG: Int = 0
+    var customPrice: Int = 0
+    var customEngineype: String = " "
+    var customFuelType: String = " "
+    
+    @IBAction func customize(_ sender: UIButton) {
+        print("We will start customizing")
     }
+    
+    // Customizing Body Type
+    @IBAction func pressSedan(sender: UIButton) {
+        customBodyType = "sedan"
+    }
+    
+    @IBAction func pressTruck(sender: UIButton) {
+        customBodyType = "truck"
+    }
+    
+    
+    @IBAction func pressHatchBack(sender: UIButton) {
+        customBodyType = "Hatchback"
+    }
+    
+    
+    @IBAction func pressSUV(sender: UIButton) {
+        customBodyType = "SUV"
+    }
+    
+    
+    
+    
     @IBOutlet weak var sceneView: ARSCNView!
     let configuration = AROrientationTrackingConfiguration()
     override func viewDidLoad() {
@@ -33,6 +63,14 @@ class ViewController: UIViewController {
         self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
         self.sceneView.session.run(configuration)
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //Store core data
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        let context = AppDelegate.persistentContainer.viewContext
+        
+        let
     }
 
     
