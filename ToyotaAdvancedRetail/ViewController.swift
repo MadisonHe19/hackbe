@@ -33,11 +33,6 @@ class ViewController: UIViewController {
     //viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        
-        
-        
     }
     /*
     // AR Kit
@@ -46,37 +41,53 @@ class ViewController: UIViewController {
     self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
     self.sceneView.session.run(configuration)
     // Do any additional setup after loading the view, typically from a nib.
-        @IBAction func customize(_ sender: UIButton) {
-        print("We will start customizing")
-        }
-    */
+ 
+ */
+    var faveCars = [String] ()
     
+    func criteria(carPrice: Int, carMPG: Int, carEngine: String, carBodyType: String, carFuel: String) {
+        if (customBodyType == camry_XSEv6.carBodyType) {
+            faveCars.append("Toyota Camry XSE v6")
+        }
+        else if (customBodyType == yaris_3DL.carBodyType) {
+            faveCars.append("Toyota Yaris 3 Door")
+        }
+        else if (customBodyType == chrXLE.carBodyType) {
+            faveCars.append("Toyota C-HR XLE")
+        }
+    }
+
+    @IBAction func customize(_ sender: UIButton) {
+        print("We will start customizing")
+    }
+ 
+
     // Customizing Body Type
-    @IBAction func pressSedan(sender: UIButton) {
+    @IBAction func pressSedan(sender: UIButton) -> Void {
         customBodyType = "sedan"
-        
-        /*newCar.setValue(self.price!.text, forKey: "price")
-        newCar.setValue(self.engineType!.text, forKey: "engineType")
-        newCar.setValue(self.fuelType!.text, forKey: "fuelType")
-            newCar.setValue(self.mpg!.text, forKey: "mpg")
-         */
+        return (customBodyType = "sedan")
+
     }
     
+
     @IBAction func pressTruck(sender: UIButton) {
         customBodyType = "truck"
+         return (customBodyType = "truck")
     }
     
     
     @IBAction func pressHatchBack(sender: UIButton) {
         customBodyType = "Hatchback"
+         return (customBodyType = "Hatchback")
     }
     
     
     @IBAction func pressSUV(sender: UIButton) {
         customBodyType = "SUV"
+         return (customBodyType = "SUV")
     }
     
-
+    
 
     
     override func didReceiveMemoryWarning() {
