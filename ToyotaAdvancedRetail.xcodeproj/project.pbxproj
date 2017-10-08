@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27CFA6D31F8A05430072DDD9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CFA6D21F8A05430072DDD9 /* Car.swift */; };
 		7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EA91F8939400028D872 /* AppDelegate.swift */; };
 		7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EAB1F8939400028D872 /* ViewController.swift */; };
 		7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EAD1F8939400028D872 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27CFA6D21F8A05430072DDD9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		7AA18EA61F8939400028D872 /* ToyotaAdvancedRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyotaAdvancedRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA18EA91F8939400028D872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA18EAB1F8939400028D872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				7AA18EA91F8939400028D872 /* AppDelegate.swift */,
 				7AA18EAB1F8939400028D872 /* ViewController.swift */,
+				27CFA6D21F8A05430072DDD9 /* Car.swift */,
 				7AA18EAD1F8939400028D872 /* Main.storyboard */,
 				7AA18EB31F8939400028D872 /* Assets.xcassets */,
 				7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */,
 				7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */,
+				27CFA6D31F8A05430072DDD9 /* Car.swift in Sources */,
 				7AA18EB21F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
