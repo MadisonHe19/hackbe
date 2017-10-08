@@ -17,8 +17,8 @@ class CustomizeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        applyMotionEffect(toView: backgroundImageView, magnitude: 10.0)
-        applyMotionEffect(toView: sedanImageView, magnitude: -20.0)
+        applyMotionEffect(toView: backgroundImageView, magnitude: 20.0)
+        applyMotionEffect(toView: sedanImageView, magnitude: -40.0)
     }
 
     
