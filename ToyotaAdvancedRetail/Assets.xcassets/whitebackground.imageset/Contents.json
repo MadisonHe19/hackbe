@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "truck_button.png",
+      "filename" : "whitebackground.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "truck_button-1.png",
       "scale" : "2x"
     },
     {

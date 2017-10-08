@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4AF1A71F899E9F00F15F32 /* Customize2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AF1A61F899E9F00F15F32 /* Customize2ViewController.swift */; };
+		1A4AF1A91F899F1400F15F32 /* CamryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AF1A81F899F1400F15F32 /* CamryViewController.swift */; };
+		1A4AF1AB1F89A11100F15F32 /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4AF1AA1F89A11100F15F32 /* CustomizeViewController.swift */; };
 		7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EA91F8939400028D872 /* AppDelegate.swift */; };
 		7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA18EAB1F8939400028D872 /* ViewController.swift */; };
 		7AA18EAF1F8939400028D872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA18EAD1F8939400028D872 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4AF1A61F899E9F00F15F32 /* Customize2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customize2ViewController.swift; sourceTree = "<group>"; };
+		1A4AF1A81F899F1400F15F32 /* CamryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamryViewController.swift; sourceTree = "<group>"; };
+		1A4AF1AA1F89A11100F15F32 /* CustomizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
 		7AA18EA61F8939400028D872 /* ToyotaAdvancedRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyotaAdvancedRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA18EA91F8939400028D872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AA18EAB1F8939400028D872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				7AA18EA91F8939400028D872 /* AppDelegate.swift */,
+				1A4AF1AA1F89A11100F15F32 /* CustomizeViewController.swift */,
 				7AA18EAB1F8939400028D872 /* ViewController.swift */,
+				1A4AF1A61F899E9F00F15F32 /* Customize2ViewController.swift */,
+				1A4AF1A81F899F1400F15F32 /* CamryViewController.swift */,
 				7AA18EAD1F8939400028D872 /* Main.storyboard */,
 				7AA18EB31F8939400028D872 /* Assets.xcassets */,
 				7AA18EB51F8939400028D872 /* LaunchScreen.storyboard */,
@@ -141,6 +150,9 @@
 			files = (
 				7AA18EAC1F8939400028D872 /* ViewController.swift in Sources */,
 				7AA18EAA1F8939400028D872 /* AppDelegate.swift in Sources */,
+				1A4AF1AB1F89A11100F15F32 /* CustomizeViewController.swift in Sources */,
+				1A4AF1A91F899F1400F15F32 /* CamryViewController.swift in Sources */,
+				1A4AF1A71F899E9F00F15F32 /* Customize2ViewController.swift in Sources */,
 				7AA18EB21F8939400028D872 /* ToyotaAdvancedRetail.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 459Z2LWK67;
 				INFOPLIST_FILE = ToyotaAdvancedRetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail;
@@ -293,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 459Z2LWK67;
 				INFOPLIST_FILE = ToyotaAdvancedRetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.madison.ToyotaAdvancedRetail;

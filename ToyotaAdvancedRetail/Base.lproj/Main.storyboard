@@ -22,15 +22,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7P-F2-O6M">
-                                <rect key="frame" x="222" y="211" width="137" height="122"/>
+                                <rect key="frame" x="230" y="207" width="129" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Looking_Button" image="just_lookingbutton"/>
                                 <connections>
-                                    <segue destination="aoc-SM-CNg" kind="presentation" id="iOd-nv-eyg"/>
+                                    <segue destination="aoc-SM-CNg" kind="show" id="eHC-B9-c7M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y5O-Jg-sSe">
-                                <rect key="frame" x="16" y="211" width="135" height="122"/>
+                                <rect key="frame" x="28" y="207" width="123" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Buying_Button" image="button1"/>
                             </button>
@@ -43,65 +43,73 @@
             </objects>
             <point key="canvasLocation" x="160.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--Lets Customize body-->
+        <!--Customize View Controller-->
         <scene sceneID="g5c-tB-L64">
             <objects>
-                <viewController id="aoc-SM-CNg" customClass="letsCustomize_body" sceneMemberID="viewController">
+                <viewController id="aoc-SM-CNg" customClass="CustomizeViewController" customModule="ToyotaAdvancedRetail" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="beP-01-2JE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCy-6t-T70">
-                                <rect key="frame" x="60" y="187" width="103" height="96"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whitebackground" translatesAutoresizingMaskIntoConstraints="NO" id="If6-ri-UfE">
+                                <rect key="frame" x="-41" y="-46" width="475" height="743"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3J-zU-RSM">
+                                <rect key="frame" x="40" y="174" width="149" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sedan_Button" image="sedan_button"/>
                                 <connections>
-                                    <segue destination="A7U-RH-k9j" kind="popoverPresentation" popoverAnchorView="ZCy-6t-T70" id="ZOq-v4-nSN">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="A7U-RH-k9j" kind="show" id="DaS-B1-G85"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xT6-eW-4TY">
-                                <rect key="frame" x="60" y="338" width="103" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Truck_Button" image="truck_button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1B-4o-S2t">
-                                <rect key="frame" x="236" y="418" width="103" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="SUV_Button" image="SUV_button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRR-8f-7kI">
-                                <rect key="frame" x="60" y="492" width="103" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3X-0i-Qt4">
+                                <rect key="frame" x="40" y="500" width="141" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hatchback_Button" image="hatchback_button"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BODY" translatesAutoresizingMaskIntoConstraints="NO" id="feI-u6-oGI">
-                                <rect key="frame" x="133" y="80" width="108" height="59"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BODY" translatesAutoresizingMaskIntoConstraints="NO" id="td5-sG-vff">
+                                <rect key="frame" x="135" y="80" width="108" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfp-rE-Stf">
-                                <rect key="frame" x="236" y="254" width="103" height="96"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SR-JV-uyP">
+                                <rect key="frame" x="221" y="226" width="138" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Convertible_Button" image="convertible_button"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lets_customize" translatesAutoresizingMaskIntoConstraints="NO" id="igL-fZ-A6l">
-                                <rect key="frame" x="121" y="0.0" width="132" height="72"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lets_customize" translatesAutoresizingMaskIntoConstraints="NO" id="yET-nr-KNB">
+                                <rect key="frame" x="123" y="0.0" width="132" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Aa-Mz-F0v">
+                                <rect key="frame" x="40" y="342" width="149" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Truck_Button" image="truck_button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjt-RH-0Gc">
+                                <rect key="frame" x="221" y="413" width="138" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SUV_Button" image="SUV_button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="AL2-Hd-63r"/>
                     </view>
+                    <connections>
+                        <outlet property="background" destination="If6-ri-UfE" id="9Mu-xz-7v0"/>
+                        <outlet property="backgroundImageView" destination="If6-ri-UfE" id="tx5-JH-OCG"/>
+                        <outlet property="backgroundView" destination="If6-ri-UfE" id="lkF-Jo-Og9"/>
+                        <outlet property="sedanImageView" destination="s3J-zU-RSM" id="Yun-gl-o4Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czG-3T-xm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="808.79999999999995" y="133.5832083958021"/>
         </scene>
-        <!--Lets Customize specs-->
+        <!--Customize2 View Controller-->
         <scene sceneID="tOk-ZF-CDe">
             <objects>
-                <viewController id="A7U-RH-k9j" customClass="letsCustomize_specs" sceneMemberID="viewController">
+                <viewController id="A7U-RH-k9j" customClass="Customize2ViewController" customModule="ToyotaAdvancedRetail" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c0k-ov-glT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,7 +195,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
-                                    <segue destination="xbV-dt-4KN" kind="show" id="CVc-i8-qJK"/>
+                                    <segue destination="xbV-dt-4KN" kind="show" id="z09-rx-DeN"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cP-m2-xIG">
@@ -206,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="1448.8" y="133.5832083958021"/>
         </scene>
-        <!--Camry360 View-->
+        <!--Camry View Controller-->
         <scene sceneID="W4P-c7-2PC">
             <objects>
-                <viewController id="xbV-dt-4KN" customClass="camry360View" sceneMemberID="viewController">
+                <viewController id="xbV-dt-4KN" customClass="CamryViewController" customModule="ToyotaAdvancedRetail" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LVj-3x-Xfn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,15 +239,16 @@
     <resources>
         <image name="BODY" width="1600" height="800"/>
         <image name="SPECS" width="1600" height="800"/>
-        <image name="SUV_button" width="1600" height="1600"/>
+        <image name="SUV_button" width="800" height="800"/>
         <image name="Toyota AR" width="1600" height="1600"/>
-        <image name="button1" width="1600" height="1600"/>
-        <image name="convertible_button" width="1600" height="1600"/>
-        <image name="hatchback_button" width="1600" height="1600"/>
-        <image name="just_lookingbutton" width="1600" height="1600"/>
+        <image name="button1" width="800" height="800"/>
+        <image name="convertible_button" width="800" height="800"/>
+        <image name="hatchback_button" width="800" height="800"/>
+        <image name="just_lookingbutton" width="800" height="800"/>
         <image name="lets_customize" width="1600" height="800"/>
         <image name="redcamrybanner" width="569" height="305"/>
-        <image name="sedan_button" width="1600" height="1600"/>
-        <image name="truck_button" width="1600" height="1600"/>
+        <image name="sedan_button" width="800" height="800"/>
+        <image name="truck_button" width="800" height="800"/>
+        <image name="whitebackground" width="1000" height="1600"/>
     </resources>
 </document>
